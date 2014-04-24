@@ -135,7 +135,6 @@ public class ImageResource {
 					"png",
 					new File(app.getProperties().get("uploadFolder") + filename));
 		} catch (IOException e) {
-			e.printStackTrace();
 			throw new InternalServerErrorException(
 					"Something has been wrong when converting the file.");
 		}
