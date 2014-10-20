@@ -10,7 +10,7 @@ Connect as root to the database and execute the scripts `mediadb-user.sql` and `
 Edit the value of the variable `URL` at the beginning of the `www/js/multipart.js` file to point the URL of the `images` resource deployed in the web application server.
 
 #### Installation
-Copy the contents of the `www` folder to your document root.
+Copy the contents of the `www` folder to your document root. Folder `img` is where the images will be written and served, so remember to change the write and execute permissions to allow the tomcat process write in it (the simplest way, give all permissions to everyone).
 
 ### RESTful Web Service
 #### Customization
